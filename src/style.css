@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: -15px;
+}
+
+#background {
+  background-color: #52796f;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23354f52' fill-opacity='0.19'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");  
+}
+
+.info {
+  margin: 0 auto;
+  max-height: 64px;
+  padding-bottom: 20px;
+  }
+  
+.weather-app {
+  border: 6px solid #2F3E46;
+  padding: 30px;
+  margin: 20px auto;
+  margin-bottom: 0;
+  width: 600px;
+  border-radius: 15px;
+  margin-top: 150px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #52796F;
+  box-shadow: -22px -22px 12px rgba(53, 79, 82, 0.8);  
+  background: rgb(202, 210, 197, 0.8);
+  
+}
+
+.left-panel {
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255, 0.5);
+  width: 170px;
+  height: 180px;
+  
+}
+
+.right-panel {
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255, 0.5);
+  width: 342px;
+  height: 180px;
+  padding: 0;
+}
+
+.bottom-panel {
+  border-radius: 15px;
+  padding: 15px;
+  background-color: rgb(255, 255, 255, 0.5);
+  width: 528px;
+  height: 140px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.current-temp-number {
+  display: block;
+  margin: 0 auto;
+  font-size: 90px;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  color: #84A98C;
+  -webkit-text-stroke: 2px #354F52;
+
+}
+
+.current-weather {
+  display: block;
+  width: 128px;
+  height: 128px;
+  padding: 15px;
+}
+
+.air-info {
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  color: #2F3E46;
+}
+
+.air-info-data {
+  color: #52796F;
+}
+
+.description {
+  font-size: 42px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  padding-bottom: 0px;
+  padding-right: 15px;
+  padding-top: 10px;
+  text-align: right;
+  color: #52796F;
+  -webkit-text-stroke: 1px #2F3E46;
+}
+
+.last-updated {
+  font-size: 12px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.current-time {
+  color: #2F3E46;
+  font-size: 20px;
+  padding-right: 20px;
+  text-align: right;
+  font-family: "poppins";
+  font-weight: 400;
+}
+
+.current-date {
+  font-style: italic;
+  font-size: 14px;
+  padding-right: 20px;
+  text-align: right;
+}
+.info {
+  text-align: right;
+
+}
+.country-name {
+  text-align: end;
+  padding-top: 0;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  color: #354F52;
+}
+
+.city-name {
+  font-size: 55px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  color: #52796F;
+}
+
+.hello {
+  vertical-align: 22%;
+  font-size: 25px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  color: #354F52;
+}
+
+.location-pin {
+  height: 42px;
+  vertical-align: 0;
+}
+
+.headings {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  letter-spacing: 3px;
+  color: #2f3c4f;
+  
+}
+
+.take-me-to {
+  font-size: 14px;
+  text-align: right;
+  display: grid;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #2F3E46;
+  font-family: "poppins", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+} 
+
+.current-location {
+  font-size: 14px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0px;
+  display: grid;
+  text-decoration: none;
+  color: #2F3E46;
+  font-family: "poppins", sans-serif;
+  font-weight: 100;
+
+}
+
+.current-location:hover {
+  cursor: default;
+  text-decoration: underline;
+  color: #354F52;
+  
+}
+
+.current-location:link {
+  text-decoration: none;
+  
+}
+
+.units {
+  text-align: center;
+  margin-top: -10px;
+  font-size: 12px;
+  color: #354F52;
+}
+
+.units :hover {
+  text-decoration: none;
+  color: #52796F;
+  cursor: default;
+}
+
+
+#celsius {
+  text-decoration: none;
+  cursor: default;
+  color: #2F3E46;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+}
+
+#farenheit {
+  text-decoration: none;
+  color: #84A98C;
+  cursor: default;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+}
+
+.open-source {
+  text-align: center;
+  padding-top: 0px;
+  font-size: 12px;  
+  color: #CAD2C5;  
+  font-style: italic;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.open-source :hover {
+  cursor: default;
+  text-decoration: underline;
+  color: #2F3E46;
+}
+
+.open-source-url {
+  text-decoration: none;
+  color: #CAD2C5;
+}
+
+#degrees-symbol {
+  font-size: 40px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  color: #84A98C;
+  -webkit-text-stroke: 2px #354F52;
+  vertical-align: text-top;
+  text-align: center;
+}
+
+.units .active :hover {
+  text-decoration: underline;
+}
+
+.weather-forecast-date {
+  font-size: 20px;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  color: #354F52;
+}
+
+#max {
+  font-size: 14px;
+  color: #52796F;
+  font-weight: 550;
+}
+
+#min {
+  font-size: 10px;
+  color: gray;
+  font-size: 14px;
+  color: #52796F;
+}
+
+.search-bar, .search-button {
+  border: 2px solid rgb(53, 79, 82, 0.7);
+  background-color: rgb(255, 255, 255, 0.3);
+  color: #52796F;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none!important;
+  box-shadow: none!important;
+  background-color: rgba(255, 255, 255, 0.476)!important;
+  background-color: rgba(255, 255, 255, 0.476)!important;
+}
