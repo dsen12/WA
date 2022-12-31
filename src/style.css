@@ -78,6 +78,7 @@ h1 {
 
 .current-weather {
   display: block;
+  margin: 0 auto;
   width: 128px;
   height: 128px;
   padding: 15px;
