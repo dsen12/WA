@@ -1,4 +1,4 @@
 SheCodes Plus Project
-Weather App
+**Weather App**
 
 Built using HTML, CSS, JavaScript, Bootstrap & Netlify. 
